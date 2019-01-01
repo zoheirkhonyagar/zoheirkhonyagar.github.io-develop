@@ -4,8 +4,8 @@ import React from 'react'
 import Menu from '../components/menu'
 
 const Header = ({ siteTitle }) => (
-<header className="header-container container">
-	<div className="">
+<header className="header-container">
+	<div className="container">
 		<nav>
 			<h1 style={{  }}>
 				<Link to="/" >

@@ -1,5 +1,5 @@
 ---
-path : "/first-blog-post"
+path : "/second-blog-post"
 date : "2019-01-02"
 title : "my second post"
 author: "Zoheir Khonyagar"

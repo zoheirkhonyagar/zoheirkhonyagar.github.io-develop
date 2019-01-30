@@ -3,6 +3,23 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
+
+.yellow-color {
+	color:#f0db4f;
+}
+
+.yellow-bgcolor {
+	background: #f0db4f;
+}
+
+.dark-color {
+	color: #323330;
+}
+
+.dark-bgcolor {
+	background: #323330;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -41,7 +58,7 @@ template {
 }
 a {
 	background-color: transparent;
-	color: #323330;
+	color: #f0db4f;
 	-webkit-text-decoration-skip: objects;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -74,6 +91,7 @@ mark {
 	color: #000;
 }
 small {
+	color: #fff;
 	font-size: 80%;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -678,6 +696,10 @@ header nav ul li {
 	margin: 0 10px;
 }
 
+header nav ul li a{
+	color: #323330;
+}
+
 footer{
 	margin: 3.5rem 0 2.5rem 0;
 	text-align: center;
@@ -686,4 +708,15 @@ footer{
 .delimiter {
     border-top: 1px solid #323330;
 	margin-bottom: 2rem;
+}
+
+.page-title {
+	margin-bottom: 3rem;
+	padding: 0;
+	line-height: 0;
+	box-sizing: border-box;
+}
+
+.page-title span {
+	
 }

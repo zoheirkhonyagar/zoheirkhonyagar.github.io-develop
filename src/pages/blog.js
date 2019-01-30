@@ -7,13 +7,14 @@ import SEO from '../components/seo'
 const blogPage = ({data}) => (
 	<Layout>
 		<SEO title="blog" />
-		<h1>Latest Posts</h1>
+		<span className="yellow-bgcolor dark-color"></span>
+		<h1 className="page-title yellow-bgcolor dark-color">Latest Posts</h1>
 		{data.allMarkdownRemark.edges.map(post => (
 			<div key={ post.node.id }>
 				<h3>
-				<Link style={{ color:`#ccc` }} to={ post.node.frontmatter.path } >{ post.node.frontmatter.title }</Link>
+				<Link to={ post.node.frontmatter.path } >{ post.node.frontmatter.title }</Link>
 				</h3>
-				<small>Posted by { post.node.frontmatter.author } on {post.node.frontmatter.date}</small>
+				<small>Posted by <span className="yellow-color">{ post.node.frontmatter.author }</span> on <span className="yellow-color">{post.node.frontmatter.date} </span></small>
 				<br	/>
 				<br	/>
 				<hr />

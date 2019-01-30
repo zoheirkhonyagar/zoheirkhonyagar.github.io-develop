@@ -25,7 +25,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deployment": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""

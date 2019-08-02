@@ -32,29 +32,26 @@ const IndexPage = ({ data }) => (
           Follow me on <a href="https://twitter.com/zoheirkhonyagar">
             Twitter
           </a>{' '}
-          and <a href="https://github.com/zoheirkhonyagar">GitHub</a>.
+          , <a href="https://github.com/zoheirkhonyagar">GitHub</a> and{' '}
+          <a href="https://www.linkedin.com/in/zoheirkhonyagar/">Linkedin</a>.
         </p>
       </div>
     </div>
     <span className="yellow-bgcolor dark-color"></span>
     <h1 className="page-title yellow-bgcolor dark-color">Latest Posts</h1>
     {data.allMarkdownRemark.edges.map(post => (
-      <div key={post.node.id}>
-        <h3>
+      <article className="article-block" key={post.node.id}>
+        <h3 className="article-title">
           <Link to={post.node.frontmatter.path}>
             {post.node.frontmatter.title}
           </Link>
-          {post.node.frontmatter.image}
         </h3>
-        <small>
-          Posted by{' '}
-          <span className="yellow-color">{post.node.frontmatter.author}</span>{' '}
-          on <span className="yellow-color">{post.node.frontmatter.date} </span>
-        </small>
-        <br />
-        <br />
-        <hr />
-      </div>
+        <p className="date">{post.node.frontmatter.date}</p>
+        <div
+          className="body"
+          dangerouslySetInnerHTML={{ __html: post.html || post.node.excerpt }}
+        />
+      </article>
     ))}
   </Layout>
 )
@@ -66,11 +63,12 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
+          excerpt
           id
           frontmatter {
             path
             title
-            date
+            date(formatString: "MMMM DD, YYYY")
             author
           }
         }

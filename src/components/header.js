@@ -6,11 +6,9 @@ import React from 'react'
 const Header = ({ siteTitle }) => (
   <header className="header-container">
     <div className="container">
-      <nav>
-        <h1 style={{}}>
-          <Link to="/">{siteTitle}</Link>
-        </h1>
-      </nav>
+      <h1 style={{}}>
+        <Link to="/">{siteTitle}</Link>
+      </h1>
     </div>
   </header>
 )

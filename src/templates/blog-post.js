@@ -10,16 +10,14 @@ export default function Temaplate({ data }) {
   return (
     <Layout>
       <div>
-        <Link to="/">Go Back</Link>
+        <Link to="/">
+          <b>{'< return { main }'}</b>
+        </Link>
         <hr />
-        <h1>
-          <Link to="#">{post.frontmatter.title}</Link>
-          <Img fluid={post.frontmatter.cover.childImageSharp.fluid} />
-        </h1>
-        <h4>
-          Posted by {post.frontmatter.author} on {post.frontmatter.date}
-        </h4>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1 className="article-title">{post.frontmatter.title}</h1>
+        <p className="date">{post.frontmatter.date}</p>
+        <Img fluid={post.frontmatter.cover.childImageSharp.fluid} />
+        <div className="body" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   )
@@ -33,7 +31,7 @@ export const postQuery = graphql`
         path
         title
         author
-        date
+        date(formatString: "MMMM DD, YYYY")
         cover {
           childImageSharp {
             fluid(maxWidth: 600) {

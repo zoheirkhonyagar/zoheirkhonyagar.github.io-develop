@@ -672,18 +672,18 @@ header nav {
   align-items: center;
 }
 
-header nav h1 {
+header h1 {
   font-size: 1.5rem;
   flex: 1;
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0;
 }
 
-header nav h1 a {
+header h1 a {
   color: #323330;
 }
 
-header nav h1 a:hover {
+header h1 a:hover {
   text-decoration: underline;
 }
 
@@ -729,4 +729,28 @@ footer {
 .profile-pic {
   width: 120px;
   width: 25%;
+}
+
+.date {
+  color: #9c9c9c;
+  margin-bottom: 0.5rem;
+}
+
+.article-title {
+  margin-bottom: 0.5rem;
+}
+
+.article-block {
+  margin-bottom: 3.5rem;
+}
+
+.body {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.5rem;
+}
+
+.introduce {
+  line-height: 1.5rem;
 }

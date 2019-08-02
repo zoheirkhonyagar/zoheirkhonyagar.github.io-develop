@@ -29,13 +29,25 @@ module.exports = {
     },
     'gatsby-plugin-catch-links',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/pages` ,
-        name: 'pages'
-      }
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
     },
-    'gatsby-transformer-remark'
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 620,
+            },
+          },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

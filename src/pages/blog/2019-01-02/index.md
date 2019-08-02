@@ -1,8 +1,8 @@
 ---
-path : "/second-blog-post"
+path : "/who-is-mr-robot"
 date : "2019-01-02"
-title : "my second post"
+title : "Who is mr robot ?"
 author: "Zoheir Khonyagar"
-cover: "./maxresdefault.jpg"
 ---
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+![who is mr robot?](./mr-robot.jpg)

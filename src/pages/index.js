@@ -26,19 +26,26 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="introduce">
         <p style={{ margin: `0px` }}>
-          Thoughts on Software Engineering, IoT and more. Written by{' '}
-          <b>Zoheir Khonyagar</b> who lives in Iran.
+          Thoughts on Software Engineering, my everyday things and more. Written
+          by <b>Zoheir Khonyagar</b> who lives in Hormozgan.
           <br />
-          Follow me on <a href="https://twitter.com/zoheirkhonyagar">
-            Twitter
+          Follow me on{' '}
+          <a href="https://twitter.com/zoheirkhonyagar">
+            <b>Twitter</b>
           </a>{' '}
-          , <a href="https://github.com/zoheirkhonyagar">GitHub</a> and{' '}
-          <a href="https://www.linkedin.com/in/zoheirkhonyagar/">Linkedin</a>.
+          ,{' '}
+          <a href="https://github.com/zoheirkhonyagar">
+            <b>GitHub</b>
+          </a>{' '}
+          and{' '}
+          <a href="https://www.linkedin.com/in/zoheirkhonyagar/">
+            <b>Linkedin</b>
+          </a>
+          .
         </p>
       </div>
     </div>
-    <span className="yellow-bgcolor dark-color"></span>
-    <h1 className="page-title yellow-bgcolor dark-color">Latest Posts</h1>
+
     {data.allMarkdownRemark.edges.map(post => (
       <article className="article-block" key={post.node.id}>
         <h3 className="article-title">

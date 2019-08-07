@@ -765,3 +765,13 @@ footer {
 .gatsby-resp-image-wrapper {
   margin: 0.5rem 0;
 }
+
+@media only screen and (max-width: 590px) {
+  .aboutme {
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    margin: 0 auto 1rem auto;
+  }
+}

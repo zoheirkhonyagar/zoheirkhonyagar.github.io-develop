@@ -10,7 +10,7 @@ import { Link, graphql } from 'gatsby'
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO
-      title="Blog"
+      title="Blog | Zoheir Khonyagar"
       keywords={[
         `zoheirkhonyagar`,
         `zoheir`,

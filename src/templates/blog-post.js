@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 export default function Temaplate({ data }) {
   const post = data.markdownRemark
@@ -9,6 +10,10 @@ export default function Temaplate({ data }) {
   return (
     <Layout>
       <div>
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+        />
         <Link to="/">
           <b>{'< return { main }'}</b>
         </Link>
@@ -24,6 +29,7 @@ export default function Temaplate({ data }) {
 export const postQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
+      excerpt(pruneLength: 160)
       html
       frontmatter {
         path

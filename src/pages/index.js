@@ -26,8 +26,8 @@ const IndexPage = ({ data }) => (
       </div>
       <div className="introduce">
         <p style={{ margin: `0px` }}>
-          Thoughts on Software Engineering, my everyday things and more. Written
-          by <b>Zoheir Khonyagar</b> who lives in Hormozgan.
+          Thoughts on Software Engineering, my everyday stories and more.
+          Written by <b>Zoheir Khonyagar</b> who lives in Hormozgan.
           <br />
           Follow me on{' '}
           <a href="https://twitter.com/zoheirkhonyagar">

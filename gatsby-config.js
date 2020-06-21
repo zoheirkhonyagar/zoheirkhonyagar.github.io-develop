@@ -45,6 +45,17 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          `gatsby-remark-copy-linked-files`,
+          {
+            resolve: 'gatsby-remark-emoji', // <-- this adds emoji
+            options: {
+              // default emojiConversion --> shortnameToUnicode
+              emojiConversion: 'toImage',
+              // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
+              // e.g. ;) --> 😉
+              ascii: false,
+            },
+          },
         ],
       },
     },

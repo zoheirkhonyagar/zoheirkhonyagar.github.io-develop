@@ -46,6 +46,6 @@ I heard this quote in a song called Kids and Heroes by The **[Bouncing Souls](ht
 
 ![drink](./drink.jpg)
 
-![me](./me1.jpg)
+![me](./me.jpg)
 
 ![watch](./watch.jpg)

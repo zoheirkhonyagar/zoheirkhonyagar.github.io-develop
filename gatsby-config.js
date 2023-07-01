@@ -56,6 +56,7 @@ module.exports = {
               ascii: false,
             },
           },
+          'gatsby-remark-embed-video',
         ],
       },
     },

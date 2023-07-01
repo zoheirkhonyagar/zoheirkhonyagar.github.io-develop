@@ -26,7 +26,7 @@ Yesterday, I finished implementing all of the components and from now on I'm gon
 Here is the demo of dope coffee components if you're carious you can watch it on youtube:
 `youtube: https://www.youtube.com/watch?v=ZxAUdSmawG8`
 Beside work, I've been doing my workout sessions properly and I feel great about my healthy life-style. 
-I cook chocolate pancakes for the breakfast most of the week however, recently my cute/cool friend Rosa recommended me to try french toast as well. I tried and it was very delicious and after that if you're my guest for breakfast these two options are available in the menu :D. <br />
+I cook chocolate pancakes for the breakfast most of the week however, recently my cute/cool friend **[Rosa](#)** recommended me to try french toast as well. I tried and it was very delicious and after that if you're my guest for breakfast these two options are available in the menu :D. <br />
 I go for walking every night and take at least 10000 steps/day. I go walking beside the beach and I enjoy observing the moonlight during that time.<br />
 Living close to sea is peaceful. It's like meditation. I really like these days however during the summer it's very hot out there and sometime it makes me crazy because I'm more into cold weather than the hot one :D
 There is a dog in our neighborhood and it's been living there for a while and every night when I go for a walking she comes with me. it feels good to have a dope dog around.

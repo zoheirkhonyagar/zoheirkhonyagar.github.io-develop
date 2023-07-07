@@ -30,8 +30,8 @@ const IndexPage = ({ data }) => (
           Written by <b>Zoheir Khonyagar</b> who lives in Hormozgan.
           <br />
           Follow me on{' '}
-          <a href="https://twitter.com/zoheirkhonyagar">
-            <b>Twitter</b>
+          <a href="https://mastodon.social/@zoheir" rel="me">
+            <b>Mastodon</b>
           </a>{' '}
           ,{' '}
           <a href="https://github.com/zoheirkhonyagar">
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
 
-    {data.allMarkdownRemark.edges.map(post => (
+    {data.allMarkdownRemark.edges.map((post) => (
       <article className="article-block" key={post.node.id}>
         <h3 className="article-title">
           <Link to={post.node.frontmatter.path}>

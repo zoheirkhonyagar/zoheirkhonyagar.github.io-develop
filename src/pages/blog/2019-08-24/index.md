@@ -2,7 +2,7 @@
 path: "/hello-friend"
 date: "2019-08-24"
 title: "Hello friend"
-author: "Zoheir Khonyagar"
+author: "Zack Khonyagar"
 ---
 
 > Hello, friend. "Hello, friend". That's lame. Maybe I should give you a name, but that's a slippery slope. You're only in my head. We have to remember that. Shit. It's actually happened, I'm talking to an imaginary person.

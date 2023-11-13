@@ -2,7 +2,7 @@
 path: '/there-will-be-victorious'
 date: '2023-04-19'
 title: 'There will be victorious'
-author: 'Zoheir Khonyagar'
+author: 'Zack Khonyagar'
 ---
 
 It's been a while since last time I posted something here. I've been busy with work most of the time. I just wanted to update this blog but I was postponing it, always.

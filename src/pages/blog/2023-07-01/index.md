@@ -2,7 +2,7 @@
 path: '/learning-by-doing'
 date: '2023-07-01'
 title: 'Learning by doing '
-author: 'Zoheir Khonyagar'
+author: 'Zack Khonyagar'
 ---
 
 Hello, world!

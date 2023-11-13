@@ -10,14 +10,17 @@ import { Link, graphql } from 'gatsby'
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO
-      title="Blog | Zoheir Khonyagar"
+      title="Blog | Zack Khonyagar"
       keywords={[
         `zoheirkhonyagar`,
         `zoheir`,
+        `zack`,
+        `zackkhonyagar`,
         `khonyagar`,
         `زهیر`,
         `خنیاگر`,
         'زهیر خنیاگر',
+        'زک',
       ]}
     />
     <div className="aboutme">
@@ -27,7 +30,7 @@ const IndexPage = ({ data }) => (
       <div className="introduce">
         <p style={{ margin: `0px` }}>
           Thoughts on Software Engineering, my everyday stories and more.
-          Written by <b>Zoheir Khonyagar</b> who lives in Hormozgan.
+          Written by <b>Zack Khonyagar</b> who lives in Hormozgan.
           <br />
           Follow me on{' '}
           <a href="https://mastodon.social/@zoheir" rel="me">

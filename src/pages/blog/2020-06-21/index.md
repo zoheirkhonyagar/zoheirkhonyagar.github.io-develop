@@ -2,7 +2,7 @@
 path: "/mongodb-dump-and-restore-quick-and-easy"
 date: "2020-06-21"
 title: "MongoDB dump and restore quick and easy"
-author: "Zoheir Khonyagar"
+author: "Zack Khonyagar"
 ---
 
 First of all before I start writing about MonogDB dump and restore I want to say I'm happy because I decided to write again in the blog. 
